@@ -79,7 +79,7 @@ body {
 }
 
 /* Banner Treatment Styles */
-.hero {
+.hero, .lugnut-story {
   background-image: url(../images/hero.jpg);
   background-size: cover;
   background-position: center center;
@@ -87,6 +87,11 @@ body {
   background-repeat: no-repeat;
   height: auto;
   margin-bottom: 0;
+}
+
+.lugnut-story {
+  background-image: url(../images/lugnut_story.jpg) !important;
+  height: 400px !important;
 }
 
 .hero h2 {
@@ -158,7 +163,7 @@ body {
   text-align: center;
 }
 
-.featured-product .grid-card .glyphicon {
+.featured-product .grid-card .fas {
   font-size: 3rem;
   color: #3b4a5d;
 }
@@ -205,13 +210,208 @@ body {
   font-size: 12px;
 }
 
+
 /* Common classes */
 
 .bg-light-grey {
   background-color: #eeeeee;
 }
 
-/* Utility classes */
+/* About Us Component Styles */
+
+.about-us h2 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.about-us span.divider {
+  border-bottom: 4px solid #b28c5d;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Breadcrumb subnav Component Styles */
+
+.breadcrumb-subnav .navbar {
+  background-color: #ffffff;
+  border: none;
+}
+
+.breadcrumb-subnav ol {
+  background-color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* Product List Component Styles */
+
+.product-list .title {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.product-list .title span {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.product-list .prod-info {
+  display: block;
+  font-weight: 300;
+}
+
+.product-list .price {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.product-list .price sup {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 14px;
+  top: -0.9em;
+}
+
+.product-list .info {
+  background-color: #f6f6f6;
+}
+
+.product-list .info h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 8px;
+}
+
+.product-list .info ul {
+  padding-left: 18px;
+}
+
+.product-list .info ul li {
+  font-weight: 300;
+}
+
+/* Promotions Component Styles */
+
+.promotions {
+  background-color: #b28c5d;
+  color: #ffffff;
+}
+
+.promotions label {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.promotions input {
+  vertical-align: middle;
+  margin-right: 10px;
+  -webkit-border-radius: 0;
+  border: 0;
+  height: 55px;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #3b4a5d;
+}
+
+footer .footerlogo {
+  max-width: 200px;
+}
+
+footer .tag-line {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+footer .media-icons li:first-child {
+  margin-left: 8px;
+}
+
+footer .media-icons li {
+  background-color: #35383d;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+footer .media-icons li a {
+  color: #ffffff;
+}
+
+footer .media-icons li a:hover {
+  color: #b28c5d;
+}
+
+footer .media-icons li:first-child  span {
+  line-height: 2;
+  padding-left: 7px;
+}
+
+footer .media-icons li:not(first-child) span {
+  line-height: 2;
+  padding-left: 4px;
+}
+
+footer .disclaimer {
+  margin-left: 5px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+footer .cta-icons  {
+  color: #ffffff;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+footer .cta-icons h3 {
+  font-weight: 800;
+  font-size: 35px;
+}
+
+footer .cta-icons span i {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 25px;
+  background-color: #fff;
+  font-size: 30px;
+  color: #3b4a5d;
+}
+
+footer .divider {
+  border-bottom: 1px solid #ffffff;
+  clear: both;
+  margin: 0 50px;
+}
+
+footer .sitemap-nav li {
+  padding: 0 9px;
+}
+
+footer .sitemap-nav li a {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
+/* Utility & common classes */
+
+.bg-darkblue {
+  background: #3b4a5d;
+}
 
 .no-wrap {
   white-space: nowrap;
