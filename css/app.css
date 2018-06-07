@@ -224,6 +224,14 @@ body {
   font-weight: bold;
 }
 
+.about-us h3 {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
 .about-us span.divider {
   border-bottom: 4px solid #b28c5d;
   width: 300px;
@@ -260,6 +268,8 @@ body {
 .product-list .prod-info {
   display: block;
   font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 .product-list .price {
@@ -294,6 +304,48 @@ body {
   font-weight: 300;
 }
 
+.product-spec h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.product-spec ul.grid {
+  list-style: none;
+  color: #ffffff;
+}
+
+.product-spec ul.grid li {
+  display: inline-block;
+  background-color: #7694ba;
+  width: 240px;
+  height: 112px;
+  margin: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 25px;
+  line-height: 3rem;
+}
+
+.product-spec ul.grid li span {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* Product Details Component */
+
+.product-details h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.product-details h2 span {
+  font-weight: 300;
+  display: block;
+  font-size: 24px;
+}
+
 /* Promotions Component Styles */
 
 .promotions {
@@ -315,6 +367,25 @@ body {
   height: 55px;
   margin-top: 0px;
   padding: 10px;
+}
+
+/* About Us Hero Component */
+
+.about-hero {
+  background-image: url(../images/lugnut_story_v2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment:inherit;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-bottom: 0;
+}
+
+.about-hero h2 {
+  font-size: 52px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 /* Footer Styles */
@@ -410,7 +481,17 @@ footer .sitemap-nav li a {
 /* Utility & common classes */
 
 .bg-darkblue {
-  background: #3b4a5d;
+  background-color: #3b4a5d;
+}
+
+
+.img-bg {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: 62.5%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .no-wrap {
